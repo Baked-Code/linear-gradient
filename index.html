@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couleurs fun JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input__block">
+            <label for="color-a" id="label-color-a">#f1f1f1</label>
+            <input type="color" name="color-a" id="color-a" value="#f1f1f1">
+        </div>
+        <div class="input__block">
+            <label for="color-b" id="label-color-b">#CD201F</label>
+            <input type="color" name="color-a" id="color-b" value="#CD201F">
+        </div>
+        <label for="deg_range" id="label-deg_range">Orientation: <span>90°</span></label>
+        <input type="range" name="deg_range" id="deg_range" min="0" max="360" value="90">
+        <div class="btn__block">
+            <button class="btn" id="copyBtn">Copier</button>
+            <button class="btn" id="randomBtn">Random</button>
+        </div>
+        <div class="toast__block">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
